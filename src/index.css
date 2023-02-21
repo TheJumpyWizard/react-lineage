@@ -1,0 +1,35 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* Custom styles */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+body {
+  background-color: #C0C0C0;
+}
+
+/* Example of using Tailwind CSS classes */
+button {
+  background: linear-gradient(to right, #266dd3, #C0C0C0);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  @apply bg-blue-700;
+}
+
